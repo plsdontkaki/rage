@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Fira+Mono:wght@400;500;700&display=swap');
+
+body{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.container{
+    border-color: white;
+    border-radius: 0px;
+    border-style: dashed;
+    border-width: 3px;
+    max-width: 20%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    max-height: 50vh;
+    height: 50vh;
+}
+
+.about{
+    border-color: white;
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 3px;
+    max-width: 93%;
+    width: 93%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 25%;
+    word-break: keep-all;
+}
+
+.about p{
+    color: white;
+    font-size: 15px;
+    font-family: fira mono, sans-serif;
+}
+
+h1{
+    font-family: bitcount grid single, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 3vw;
+
+}
+
+span{
+    color: white;
+    font-size: 20px;
+    font-family: fira mono, sans-serif;
+}
+
+button{
+    background-color: black;
+    width: 20vw;
+    border-color: white;
+    padding: 10px;
+    transition: background-color 0.1s;
+}
+
+button:hover {
+    background-color: white;
+}
+
+button:hover span {
+    color: black;
+}
+
+p{
+    color: rgb(41, 41, 41);
+    font-family: fira mono, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+
+.container{
+    max-width: 80%;
+    width: 80%;
+    height: 60vh;
+    max-height: 60vh;
+}
+
+h1{
+    font-size: 10vw;
+}
+
+button{
+    width: 75vw;
+    height: 5vh;
+}
+
+span{
+    font-size: 4.1vw;
+}
+
+.about{
+    height: 20vh;
+}
+}
