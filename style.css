@@ -45,7 +45,7 @@ body{
 
 .about p{
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     font-family: fira mono, sans-serif;
 }
 
@@ -84,31 +84,39 @@ p{
     font-family: fira mono, sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
-.container{
-    max-width: 80%;
-    width: 80%;
-    height: 60vh;
-    max-height: 60vh;
-}
+    .container{
+        max-width: 80vw;
+        min-width: 80vw;
+        min-height: 70vh;
+        max-height: 70vh;
+    }
 
-h1{
-    font-size: 10vw;
-}
+    h1{
+        font-size: 10vw;
+    }
 
-button{
-    width: 75vw;
-    height: 5vh;
-}
+    button{
+        width: 75vw;
+        height: 7vh;
+    }
 
-span{
-    font-size: 4.1vw;
-}
+    span{
+        font-size: 4vw !important;
+    }
 
-.about{
-    height: 20vh;
-}
+    .about{
+        height: 20vh;
+    }   
+
+    .about p{
+        font-size: 5vw !important;
+    }
+
+    p{
+        font-size: 4vw !important;
+    }
 }
 
 @media only screen and (max-width: 1440px) {
