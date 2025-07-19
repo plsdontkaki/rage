@@ -84,7 +84,7 @@ p{
     font-family: fira mono, sans-serif;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
 
     .container{
         max-width: 80vw;
