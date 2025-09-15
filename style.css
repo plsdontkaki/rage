@@ -22,8 +22,8 @@ body{
     justify-items: center;
     flex-direction: column;
     row-gap: 10px;
-    max-height: 50vh;
-    height: 50vh;
+    max-height: 55vh;
+    height: 55vh;
 }
 
 .about{
@@ -89,8 +89,8 @@ p{
     .container{
         max-width: 80vw;
         min-width: 80vw;
-        min-height: 70vh;
-        max-height: 70vh;
+        min-height: 75vh;
+        max-height: 75vh;
     }
 
     h1{
